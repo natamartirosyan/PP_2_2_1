@@ -3,7 +3,7 @@ package hiber.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "user")
 public class User {
 
    @Id
@@ -13,7 +13,7 @@ public class User {
    @Column(name = "name")
    private String firstName;
 
-   @Column(name = "last_name")
+   @Column(name = "lastName")
    private String lastName;
 
    @Column(name = "email")
